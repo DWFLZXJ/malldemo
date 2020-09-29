@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: daiwf
+    password: Daiwf@mysql
+    url: jdbc:mysql://rm-uf6h37g21ye31248ymo.mysql.rds.aliyuncs.com:3306/mall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 9000
